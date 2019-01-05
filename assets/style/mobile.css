@@ -52,12 +52,21 @@
 }
 
 /*=====共通=====*/
+.header-page-title-box{
+    margin-left: 5%;
+}
+.header-page-title{
+    font-size: 4em; /*32px*/
+    background: #191919;
+    color: #fff;
+    display: inline-block;
+}
 .maintitle{
     margin-left: 5%;
     margin-top: 50px;
     width: 48%;
     display: block;
-    margin-bottom: 6%; /*18px*/
+    margin-bottom: 4%; /*18px*/
 }
 .title-eng{
     font-size: 4.2em; /*32px*/
@@ -107,6 +116,15 @@ p{
     color: #191919;
 }
 
+.header-change{
+    width: 12%;
+    margin-left: 5%;
+    position: fixed;
+    top: 50px;
+}
+.header-change-img{
+    width: 100%;
+}
 
 
 /*---side menu---*/

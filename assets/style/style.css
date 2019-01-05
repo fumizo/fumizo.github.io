@@ -52,6 +52,9 @@
 }
 
 /*=====共通=====*/
+.header-page-title{
+    display: none;
+}
 .maintitle{
     position: fixed;
     width: 170px;

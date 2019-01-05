@@ -13,6 +13,9 @@
         <!--top-->
         <a href="index.html"><img class="maintitle" src="assets/img/title_main.svg" alt=""></a>
         <div class="maintitle-fixed"></div>
+        <div class="header-page-title-box">
+            <p class="header-page-title">about</p>
+        </div>
         <!--side menu-->
 
         <div class="side-menu fat-nav">
@@ -69,6 +72,33 @@
              </div>
          </div>
       </div>
+       
+        <div class="header-change">
+            <a href="index.html"><img class="header-change-img" src="assets/img/header_blue.svg" alt=""></a>
+        </div>
+        
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript">
+            // ページの読み込みが完了してから実行
+            $(function() {
+                var header = $(".header-change");
+                header.hide();
+                // 表示を開始するスクロール量(px)
+                var TargetPos = 350;
+
+                // スクロールされた際に実行
+                $(window).scroll( function() {
+                    // 現在のスクロール位置を取得
+                    var ScrollPos = $(window).scrollTop();
+                    if( ScrollPos > TargetPos ) {
+                        header.fadeIn(100);
+                    }
+                    else {
+                        header.fadeOut(50);
+                    }
+                });
+            });
+        </script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="./assets/js/jquery.fatNav.js"></script>
