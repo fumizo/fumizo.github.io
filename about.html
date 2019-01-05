@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>fumikoyamamoto</title>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Noto+Sans+TC:400,700|Open+Sans:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/style/reset.css">
+        <link rel="stylesheet" href="./assets/style/mobile.css" media="screen and (max-width:1000px)">  
+        <link rel="stylesheet" href="./assets/style/style.css" media="screen and (min-width:1000px)"> 
+        <link rel="stylesheet" href="./assets/style/jquery.fatNav.css" media="screen and (max-width:1000px)">  
+    </head>
+    <body>
+        <!--top-->
+        <a href="index.html"><img class="maintitle" src="assets/img/title_main.svg" alt=""></a>
+        <div class="maintitle-fixed"></div>
+        <!--side menu-->
+
+<!--
+        <div class="fat-nav">
+            <div class="fat-nav__wrapper">
+                <ul>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item</a></li>
+                    <li><a href="#">Menu item</a></li>
+                </ul>
+            </div>
+        </div>
+        
+-->
+
+        <div class="side-menu fat-nav">
+            <div class="fat-nav__wrapper">
+               <ul class="menu">
+                   <li><a href="about.html"><p class="side-menu-component-n">about</p></a></li>
+                   <li><a href="works.html"><p class="side-menu-component">works</p></a></li>
+                   <li><a href="personal.html"><p class="side-menu-component">personal</p></a></li>
+                   <li><a href="contact.html"><p class="side-menu-component">contact</p></a></li>
+               </ul> 
+           </div>
+        </div>
+
+      <div class="about-mc">
+         <img class="about-profile" src="assets/img/profile.jpg" alt="">
+         <div class="about-info">
+             <p class="title-eng about-name">fumiko yamamoto</p>
+             <p class="subtitle-eng about-position">designer / student</p>
+             <p class="body-text about-body">1998年生まれ。15歳のときアプリ開発を始め、デジタルの世界へ。翌年アプリ制作の大会で優勝。現在はデザイナーとして、印刷物やwebなど幅広く製作している。</p>
+             <p class="info-eng about-skiill">illustrator / Premiere Pro / After Effects / Xd /Sketch / Photoshop / HTML / CSS / Swift / C++(openframeworks)</p>
+             
+             <div class="about-biography">
+                 <table border="1">
+                     <tr>
+                         <td class="bio-year">2018</td><td class="bio-what"><span><a href="" class="bio-what-link">助太刀</a></span>デザイナーアルバイト(4月-)
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="bio-year">2017</td><td class="bio-what"><span><a href="" class="bio-what-link">Life is Tech!</a></span> インターン(6月-)
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="bio-year"></td><td class="bio-what"><span><a href="" class="bio-what-link">Anny</a></span> MDインターン(10月-翌4月)
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="bio-year">2016</td><td class="bio-what"><span><a href="" class="bio-what-link">東京すずらん通りポスターコンテスト</a></span> 神田すずらん通り商店街賞
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="bio-year">2015</td><td class="bio-what"><span><a href="" class="bio-what-link">第17回青二祭</a></span> デザイン/PV責任者
+                         </td>
+                     </tr>
+                     <tr>
+                         <td class="bio-year">2014</td><td class="bio-what"><span><a href="" class="bio-what-link">アプリ甲子園2014</a></span> 優勝
+                         </td>
+                     </tr>
+                 </table>
+             </div>
+         </div>
+      </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="./assets/js/jquery.fatNav.js"></script>
+        
+        <script>
+            $(function() {
+                $.fatNav();
+            });
+        </script>
+    </body>
+    
+</html>

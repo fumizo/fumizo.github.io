@@ -1,0 +1,251 @@
+/*=====TOP=====*/
+.top-mc{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px 60px 60px 60px;
+    border: 3px solid #0000FF;
+}
+.top-contents{
+    margin: 50px 0;
+}
+.top-menu{
+    display: block;
+}
+.top-menu-l{
+    float: left;
+    padding: 50px 0;
+}
+.top-menu-r{
+    float: right;
+    padding: 50px 0;
+}
+.top-maintitle{
+    width: 250px;
+    display: block;
+    margin-bottom: 30px;
+}
+.top-subtitle{
+    width: 270px;
+    clear: both;
+    display: block;
+}
+.top-pagetitle{
+    height: 28px;
+    display: block;
+}
+.top-menu-l :not(#page-title-last){
+    margin-bottom: 28px;
+}
+.top-menu-r :not(#page-title-last){
+    margin-bottom: 28px;
+}
+.top-dummy{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.top-line2{
+    clear: both;
+    margin-bottom: 3px;
+}
+
+/*=====共通=====*/
+.maintitle{
+    position: fixed;
+    width: 170px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.maintitle-fixed{
+    width: 170px;
+    height: 56.44px;
+    margin-left: 80px;
+}
+.title-eng{
+    font-size: 32px;
+    font-weight: bold;
+}
+.works-title-eng{
+    font-size: 65px;
+    font-weight: bold;
+}
+.title-jp{
+    font-size: 31px;
+    font-weight: bold;
+}
+.subtitle-eng{
+    font-size: 15px;
+    font-weight: bold;
+}
+.body-text{
+    font-size: 17px;
+    line-height: 180%;
+}
+.info-eng{
+    font-size: 16px;
+    line-height: 150%;
+}
+.info-eng-link{
+    font-size: 16px;
+    line-height: 150%;
+    color: #00f;
+}
+.bio-year-2{
+    font-size: 16px;
+    line-height: 150%;
+    padding-right: 20px;
+}
+p{
+    color: #191919;
+}
+
+
+/*---side menu---*/
+.side-menu {
+    position: fixed; /* 画面に固定して追従させます */
+    top: 50%;
+    transform: translateY(-50%);
+/*    top: 20vh; */
+    /* 表示画面の上から20%のところから表示を始めます */
+    right:0; /* 固定位置は右側 */
+    z-index:1; /* 他の要素より前に出します */
+}
+.side-menu li a{
+    -webkit-writing-mode: vertical-rl; /* Chrome,Safari対応*/
+    -ms-writing-mode: tb-rl; /* IE対応*/
+    writing-mode: vertical-rl;
+}
+.side-menu-component{
+    margin-bottom: 75px;
+    margin-right: 35px;
+    font-size: 16px;
+    color: #191919;
+}
+.side-menu-component-n{
+    margin-bottom: 75px;
+    margin-right: 35px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #191919;
+}
+
+/*=====about=====*/
+.about-mc{
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.about-profile{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+.about-info{
+    width: 37%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 5%;
+}
+.about-name{
+    margin-bottom: 13px;
+}
+.about-position{
+    margin-bottom: 35px;
+}
+.about-body{
+    margin-bottom: 40px;
+}
+.about-biography{
+    margin-top: 65px;
+}
+.bio-year{
+    opacity: 0.45;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.bio-what{
+    font-size: 15px;
+    line-height: 180%;
+}
+table td .bio-what-link{
+    color: #00f;
+}
+
+/*=====contact=====*/
+.contact-mc{
+    width: 500px;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+.contact-main-adress{
+    margin-bottom: 60px;
+}
+.contact-bodytx{
+    margin-bottom: 60px;
+}
+.contact-icons{
+    margin-bottom: 60px;
+}
+.contact-icon{
+    margin-right: 28px;
+}
+.contact-info{
+}
+
+/*=====works=====*/
+.works-mc{
+    margin: 100px 0;
+    text-align: center;
+}
+.works-block{
+    width: 34%;
+    margin: 0 3% 100px 3%;
+    display: inline-block;
+    text-align: left;
+}
+.works-img{
+    margin-bottom: 35px;
+    width: 100%;
+}
+.works-title{
+    margin-bottom: 17px;
+}
+
+/*=====works-detail=====*/
+.works-detail-mc{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.works-detail-title{
+    width: 600px;
+}
+.works-detail-contents{
+}
+.works-dt-body{
+    width: 600px;
+    margin-bottom: 80px;
+}
+.works-dt-img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.works-dt-maintitle{
+    margin-bottom: 32px;
+}
+.works-dt-subtitle{
+    margin-bottom: 28px;
+}
+.works-dt-date{
+    margin-bottom: 55px;
+}
+.works-detail-subcontents{
+    text-align: center;
+}
+
+
+
+

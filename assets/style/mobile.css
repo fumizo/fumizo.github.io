@@ -1,0 +1,225 @@
+/*=====TOP=====*/
+.top-mc{
+    margin: 0 auto;
+    margin-top: 13%;
+    margin-bottom: 13%;
+    padding: 31px 4%;
+}
+.top-contents{
+    margin: 10% 0;
+}
+.top-menu{
+    display: block;
+}
+.top-menu-l{
+    float: left;
+    padding: 10% 0;
+/*    width: 23%;*/
+}
+.top-menu-r{
+    float: right;
+    padding: 10% 0;
+/*    width: 20%;*/
+}
+.top-maintitle{
+    width: 48%;
+    display: block;
+    margin-bottom: 6%; /*18px*/
+}
+.top-subtitle{
+    width: 52%;
+    clear: both;
+    display: block;
+}
+.top-pagetitle{
+    height: 20px;
+    display: block;
+}
+.top-menu-l :not(#page-title-last){
+    margin-bottom: 20%;
+}
+.top-menu-r :not(#page-title-last){
+    margin-bottom: 20%;
+}
+.top-dummy{
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+.top-line2{
+    clear: both;
+    margin-bottom: 3px;
+}
+
+/*=====共通=====*/
+.maintitle{
+    position: fixed;
+    width: 170px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.maintitle-fixed{
+    width: 170px;
+    height: 56.44px;
+    margin-left: 80px;
+}
+.title-eng{
+    font-size: 32px;
+    font-weight: bold;
+}
+.works-title-eng{
+    font-size: 65px;
+    font-weight: bold;
+}
+.title-jp{
+    font-size: 31px;
+    font-weight: bold;
+}
+.subtitle-eng{
+    font-size: 15px;
+    font-weight: bold;
+}
+.body-text{
+    font-size: 17px;
+    line-height: 180%;
+}
+.info-eng{
+    font-size: 16px;
+    line-height: 150%;
+}
+.info-eng-link{
+    font-size: 16px;
+    line-height: 150%;
+    color: #00f;
+}
+.bio-year-2{
+    font-size: 16px;
+    line-height: 150%;
+    padding-right: 20px;
+}
+p{
+    color: #191919;
+}
+
+
+/*---side menu---*/
+
+
+/*=====about=====*/
+.about-mc{
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.about-profile{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+.about-info{
+    width: 37%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 5%;
+}
+.about-name{
+    margin-bottom: 13px;
+}
+.about-position{
+    margin-bottom: 35px;
+}
+.about-body{
+    margin-bottom: 40px;
+}
+.about-biography{
+    margin-top: 65px;
+}
+.bio-year{
+    opacity: 0.45;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.bio-what{
+    font-size: 15px;
+    line-height: 180%;
+}
+table td .bio-what-link{
+    color: #00f;
+}
+
+/*=====contact=====*/
+.contact-mc{
+    width: 500px;
+    margin-top: 110px;
+    margin-left: 200px;
+}
+.contact-main-adress{
+    margin-bottom: 60px;
+}
+.contact-bodytx{
+    margin-bottom: 60px;
+}
+.contact-icons{
+    margin-bottom: 60px;
+}
+.contact-icon{
+    margin-right: 28px;
+}
+.contact-info{
+}
+
+/*=====works=====*/
+.works-mc{
+    margin: 100px 0;
+    text-align: center;
+}
+.works-block{
+    width: 34%;
+    margin: 0 3% 100px 3%;
+    display: inline-block;
+    text-align: left;
+}
+.works-img{
+    margin-bottom: 35px;
+    width: 100%;
+}
+.works-title{
+    margin-bottom: 17px;
+}
+
+/*=====works-detail=====*/
+.works-detail-mc{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.works-detail-title{
+    width: 600px;
+}
+.works-detail-contents{
+}
+.works-dt-body{
+    width: 600px;
+    margin-bottom: 80px;
+}
+.works-dt-img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.works-dt-maintitle{
+    margin-bottom: 32px;
+}
+.works-dt-subtitle{
+    margin-bottom: 28px;
+}
+.works-dt-date{
+    margin-bottom: 55px;
+}
+.works-detail-subcontents{
+    text-align: center;
+}
+
+
+
+
