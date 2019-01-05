@@ -68,7 +68,7 @@
     font-weight: bold;
 }
 .works-detail-tx-sub-sp{
-    font-size: 2.1em; /*16px*/
+    font-size: 2em; /*16px*/
     line-height: 160%;
 }
 .title-jp{
@@ -81,11 +81,11 @@
 }
 .body-text{
     font-size: 2.1em; /*17px*/
-    line-height: 180%;
+    line-height: 185%;
 }
 .info-eng{
     font-size: 2.1em; /*16px*/
-    line-height: 160%;
+    line-height: 165%;
 }
 .info-eng-link{
     font-size: 1em; /*32px*/
@@ -148,6 +148,13 @@ p{
 table td .bio-what-link{
     color: #00f;
 }
+.about-icons{
+    text-align: center;
+    margin: 20% 0;
+}
+.about-icon{
+    margin-right: 6%;
+}
 
 /*=====contact=====*/
 .contact-mc{
@@ -199,34 +206,32 @@ table td .bio-what-link{
 
 /*=====works-detail=====*/
 .works-detail-mc{
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin: 100px 5% 200px 5%;
 }
 .works-detail-title{
 }
 .works-dt-body{
     width: 100%;
-    margin: 0 5% 10% 5%;
+    margin: 0 0 10% 0;
 }
 .works-dt-img{
-    width: 100%;
-    margin-bottom: 10%;
+    width: 110%;
+    margin: 0 -5% 10% -5%;
 }
 .works-dt-maintitle{
-    margin: 0 5% 32px 5%;
+    margin: 0 0 32px 0;
 }
 .works-dt-subtitle{
-    margin: 0 5% 28px 5%;
+    margin: 0 0 28px 0;
 }
 .works-dt-date{
-    margin: 0 5% 55px 5%;
+    margin: 0 0 55px 0;
 }
 .works-detail-subcontents{
     text-align: center;
 }
 .works-credit{
-    margin: 0% 5% 0 5%;
+    margin: 0;
 }
 .works-detail-line{
     margin: 20% 30% 20% 30%;

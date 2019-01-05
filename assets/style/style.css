@@ -179,6 +179,15 @@ p{
 table td .bio-what-link{
     color: #00f;
 }
+.about-icons{
+    display: none;
+}
+.about-icon-ig{
+    display: none;
+}
+.about-icon-pin{
+    display: none;
+}
 
 /*=====contact=====*/
 .contact-mc{
