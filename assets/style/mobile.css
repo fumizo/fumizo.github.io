@@ -115,13 +115,16 @@ p{
     display: inline-block;
 }
 .about-name{
-    margin: 0.5em 0;
+    margin: 0.8em 0;
 }
 .about-position{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 .about-body{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+.about-line{
+    margin: 10em 30% 0 30%;
 }
 .about-biography{
     margin-top: 10em;

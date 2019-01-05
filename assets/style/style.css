@@ -159,6 +159,9 @@ p{
 .about-biography{
     margin-top: 65px;
 }
+.about-line{
+    display: none;
+}
 .bio-year{
     opacity: 0.45;
     font-weight: bold;
