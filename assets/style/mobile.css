@@ -53,47 +53,43 @@
 
 /*=====共通=====*/
 .maintitle{
-    position: fixed;
-    width: 170px;
     margin-left: 80px;
     margin-top: 50px;
-}
-.maintitle-fixed{
-    width: 170px;
-    height: 56.44px;
-    margin-left: 80px;
+    width: 48%;
+    display: block;
+    margin-bottom: 6%; /*18px*/
 }
 .title-eng{
-    font-size: 32px;
+    font-size: 4.2em; /*32px*/
     font-weight: bold;
 }
 .works-title-eng{
-    font-size: 65px;
+    font-size: 8.5em; /*65px*/
     font-weight: bold;
 }
 .title-jp{
-    font-size: 31px;
+    font-size: 4.1em; /*31px*/
     font-weight: bold;
 }
 .subtitle-eng{
-    font-size: 15px;
+    font-size: 2em; /*15px*/
     font-weight: bold;
 }
 .body-text{
-    font-size: 17px;
+    font-size: 2.1em; /*17px*/
     line-height: 180%;
 }
 .info-eng{
-    font-size: 16px;
+    font-size: 2.1em; /*16px*/
     line-height: 150%;
 }
 .info-eng-link{
-    font-size: 16px;
+    font-size: 2.1em; /*32px*/
     line-height: 150%;
     color: #00f;
 }
 .bio-year-2{
-    font-size: 16px;
+    font-size: 2.1em; /*32px*/
     line-height: 150%;
     padding-right: 20px;
 }
@@ -107,40 +103,37 @@ p{
 
 /*=====about=====*/
 .about-mc{
-    margin-top: 100px;
-    margin-left: 15%;
+    margin: 100px 5%;
 }
 .about-profile{
-    width: 30%;
+    width: 100%;
     display: inline-block;
     position: relative;
 }
 .about-info{
-    width: 37%;
+    width: 100%;
     display: inline-block;
-    position: absolute;
-    margin-left: 5%;
 }
 .about-name{
-    margin-bottom: 13px;
+    margin: 0.5em 0;
 }
 .about-position{
-    margin-bottom: 35px;
+    margin-bottom: 1em;
 }
 .about-body{
-    margin-bottom: 40px;
+    margin-bottom: 1em;
 }
 .about-biography{
-    margin-top: 65px;
+    margin-top: 10em;
 }
 .bio-year{
     opacity: 0.45;
     font-weight: bold;
-    font-size: 15px;
-    padding-right: 20px;
+    font-size: 2.3em; /*15px*/
+    padding-right: 6%;
 }
 .bio-what{
-    font-size: 15px;
+    font-size: 2.3em; /*15px*/
     line-height: 180%;
 }
 table td .bio-what-link{
