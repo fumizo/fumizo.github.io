@@ -14,13 +14,15 @@
         <a href="index.html"><img class="maintitle" src="assets/img/title_main.svg" alt=""></a>
         <div class="maintitle-fixed"></div>
         <!--side menu-->
-        <div class="side-menu">
-            <ul class="menu">
-                <li><a href="about.html"><p class="side-menu-component">about</p></a></li>
-                <li><a href="works.html"><p class="side-menu-component">works</p></a></li>
-                <li><a href="personal.html"><p class="side-menu-component-n">personal</p></a></li>
-                <li><a href="contact.html"><p class="side-menu-component">contact</p></a></li>
-            </ul>
+        <div class="side-menu fat-nav">
+            <div class="fat-nav__wrapper">
+                <ul class="menu">
+                    <li><a href="about.html"><p class="side-menu-component-n">about</p></a></li>
+                    <li><a href="works.html"><p class="side-menu-component">works</p></a></li>
+                    <li><a href="personal.html"><p class="side-menu-component">personal</p></a></li>
+                    <li><a href="contact.html"><p class="side-menu-component">contact</p></a></li>
+                </ul> 
+            </div>
         </div>
         
         <div class="works-detail-mc">
@@ -101,6 +103,13 @@
 
         </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="./assets/js/jquery.fatNav.js"></script>
 
+        <script>
+            $(function() {
+                $.fatNav();
+            });
+        </script>
     </body>
 </html>

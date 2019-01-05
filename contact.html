@@ -14,13 +14,15 @@
         <a href="index.html"><img class="maintitle" src="assets/img/title_main.svg" alt=""></a>
         <div class="maintitle-fixed"></div>
         <!--side menu-->
-        <div class="side-menu">
-            <ul class="menu">
-                <li><a href="about.html"><p class="side-menu-component">about</p></a></li>
-                <li><a href="works.html"><p class="side-menu-component">works</p></a></li>
-                <li><a href="personal.html"><p class="side-menu-component">personal</p></a></li>
-                <li><a href="contact.html"><p class="side-menu-component-n">contact</p></a></li>
-            </ul>
+        <div class="side-menu fat-nav">
+            <div class="fat-nav__wrapper">
+                <ul class="menu">
+                    <li><a href="about.html"><p class="side-menu-component-n">about</p></a></li>
+                    <li><a href="works.html"><p class="side-menu-component">works</p></a></li>
+                    <li><a href="personal.html"><p class="side-menu-component">personal</p></a></li>
+                    <li><a href="contact.html"><p class="side-menu-component">contact</p></a></li>
+                </ul> 
+            </div>
         </div>
         
         <div class="contact-mc">
@@ -28,15 +30,23 @@
             <p class="body-text contact-bodytx">お仕事のご依頼、お問い合わせ、作品へのフィードバック等ありましたら、お気軽にご連絡ください。<br>
             丁寧さを求める方はメール、速さを求める方はインスタDMがオススメです。</p>
             <div class="contact-icons">
-                <a href="mailto:fumi811bbc@gmail.com" target="_blank"><img class="contact-icon" src="assets/img/icon_mail.svg" alt=""></a>
-                <a href="https://www.facebook.com/yamamotofumiko98" target="_blank"><img class="contact-icon" src="assets/img/icon_fb.svg" alt=""></a>
-                <a href="https://www.instagram.com/always811/" target="_blank"><img class="contact-icon" src="assets/img/icon_ig.svg" alt=""></a>
-                <a href="https://www.pinterest.jp/always811/" target="_blank"><img class="contact-icon" src="assets/img/icon_pin.svg" alt=""></a>
+                <a href="mailto:fumi811bbc@gmail.com" target="_blank"><img class="contact-icon icon-mail" src="assets/img/icon_mail.svg" alt=""></a>
+                <a href="https://www.facebook.com/yamamotofumiko98" target="_blank"><img class="contact-icon icon-fb" src="assets/img/icon_fb.svg" alt=""></a>
+                <a href="https://www.instagram.com/always811/" target="_blank"><img class="contact-icon icon-ig" src="assets/img/icon_ig.svg" alt=""></a>
+                <a href="https://www.pinterest.jp/always811/" target="_blank"><img class="contact-icon icon-pin" src="assets/img/icon_pin.svg" alt=""></a>
             </div>
             <p class="info-eng contact-info">fumiko yamamoto<br>
                 1998 Tokyo Japan<br>
-                designer / <a href=""><span class="info-eng-link">college</span></a> student / <a href=""><span class="info-eng-link">blogger</span></a></p>
+                designer / <a href="http://www.jwu.ac.jp/sp/" target="_blank"><span class="info-eng-link">college</span></a> student / <a href="http://www.nylon.jp/blog/fumiko/" target="_blank"><span class="info-eng-link">blogger</span></a></p>
         </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="./assets/js/jquery.fatNav.js"></script>
+
+        <script>
+            $(function() {
+                $.fatNav();
+            });
+        </script>
     </body>
 </html>

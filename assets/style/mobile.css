@@ -53,7 +53,7 @@
 
 /*=====共通=====*/
 .maintitle{
-    margin-left: 80px;
+    margin-left: 5%;
     margin-top: 50px;
     width: 48%;
     display: block;
@@ -64,7 +64,7 @@
     font-weight: bold;
 }
 .works-title-eng{
-    font-size: 8.5em; /*65px*/
+    font-size: 8em; /*65px*/
     font-weight: bold;
 }
 .title-jp{
@@ -115,19 +115,19 @@ p{
     display: inline-block;
 }
 .about-name{
-    margin: 0.8em 0;
+    margin: 5% 0;
 }
 .about-position{
-    margin-bottom: 2em;
+    margin-bottom: 8%;
 }
 .about-body{
-    margin-bottom: 2em;
+    margin-bottom: 8%;
 }
 .about-line{
-    margin: 10em 30% 0 30%;
+    margin: 20% 30% 0 30%;
 }
 .about-biography{
-    margin-top: 10em;
+    margin-top: 20%;
 }
 .bio-year{
     opacity: 0.45;
@@ -145,23 +145,31 @@ table td .bio-what-link{
 
 /*=====contact=====*/
 .contact-mc{
-    width: 500px;
-    margin-top: 110px;
-    margin-left: 200px;
+    margin: 100px 5%;
 }
 .contact-main-adress{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .contact-bodytx{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .contact-icons{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .contact-icon{
-    margin-right: 28px;
+    margin-right: 6%;
 }
-.contact-info{
+.icon-mail{ 
+    width: 10%;
+}
+.icon-fb{
+    width: 4.4%;
+}
+.icon-ig{
+    width: 9%;
+}
+.icon-pin{
+    width: 9.5%;
 }
 
 /*=====works=====*/
