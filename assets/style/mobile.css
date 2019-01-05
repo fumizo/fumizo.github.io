@@ -63,9 +63,13 @@
     font-size: 4.2em; /*32px*/
     font-weight: bold;
 }
-.works-title-eng{
-    font-size: 8em; /*65px*/
+.works-detail-tx-main{
+    font-size: 4.2em; /*32px*/
     font-weight: bold;
+}
+.works-detail-tx-sub-sp{
+    font-size: 2.1em; /*16px*/
+    line-height: 160%;
 }
 .title-jp{
     font-size: 4.1em; /*31px*/
@@ -81,10 +85,10 @@
 }
 .info-eng{
     font-size: 2.1em; /*16px*/
-    line-height: 150%;
+    line-height: 160%;
 }
 .info-eng-link{
-    font-size: 2.1em; /*32px*/
+    font-size: 1em; /*32px*/
     line-height: 150%;
     color: #00f;
 }
@@ -93,9 +97,16 @@
     line-height: 150%;
     padding-right: 20px;
 }
+.bio-year{
+    opacity: 0.45;
+    font-weight: bold;
+    font-size: 2.3em; /*15px*/
+    padding-right: 6%;
+}
 p{
     color: #191919;
 }
+
 
 
 /*---side menu---*/
@@ -129,12 +140,7 @@ p{
 .about-biography{
     margin-top: 20%;
 }
-.bio-year{
-    opacity: 0.45;
-    font-weight: bold;
-    font-size: 2.3em; /*15px*/
-    padding-right: 6%;
-}
+
 .bio-what{
     font-size: 2.3em; /*15px*/
     line-height: 180%;
@@ -174,56 +180,56 @@ table td .bio-what-link{
 
 /*=====works=====*/
 .works-mc{
-    margin: 100px 0;
+    margin: 100px 5%;
     text-align: center;
 }
 .works-block{
-    width: 34%;
-    margin: 0 3% 100px 3%;
+    width: 100%;
+    margin-bottom: 10%;
     display: inline-block;
     text-align: left;
 }
 .works-img{
-    margin-bottom: 35px;
+    margin-bottom: 6%;
     width: 100%;
 }
 .works-title{
-    margin-bottom: 17px;
+    margin-bottom: 3%;
 }
 
 /*=====works-detail=====*/
 .works-detail-mc{
-    width: 800px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 200px;
 }
 .works-detail-title{
-    width: 600px;
-}
-.works-detail-contents{
 }
 .works-dt-body{
-    width: 600px;
-    margin-bottom: 80px;
+    width: 100%;
+    margin: 0 5% 10% 5%;
 }
 .works-dt-img{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
 .works-dt-maintitle{
-    margin-bottom: 32px;
+    margin: 0 5% 32px 5%;
 }
 .works-dt-subtitle{
-    margin-bottom: 28px;
+    margin: 0 5% 28px 5%;
 }
 .works-dt-date{
-    margin-bottom: 55px;
+    margin: 0 5% 55px 5%;
 }
 .works-detail-subcontents{
     text-align: center;
 }
-
-
+.works-credit{
+    margin: 0% 5% 0 5%;
+}
+.works-detail-line{
+    margin: 20% 30% 20% 30%;
+}
 
 
