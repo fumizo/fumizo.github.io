@@ -110,6 +110,9 @@ p{
 .header-change{
     display: none;
 }
+.header-change-img{
+    display: none;
+}
 
 
 /*---side menu---*/
