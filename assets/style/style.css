@@ -107,6 +107,9 @@ orks-detail-tx-sub-pc{
 p{
     color: #191919;
 }
+.header-change{
+    display: none;
+}
 
 
 /*---side menu---*/
