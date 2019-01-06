@@ -113,7 +113,12 @@ p{
 .header-change-img{
     display: none;
 }
-
+.nav-logo{
+    display: none;
+}
+.nav-logo-img{
+    display: none;
+}
 
 /*---side menu---*/
 .side-menu {
