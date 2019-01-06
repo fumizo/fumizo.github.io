@@ -91,10 +91,16 @@
 .body-text{
     font-size: 2.1em; /*17px*/
     line-height: 185%;
+    letter-spacing: 0.01em
 }
 .info-eng{
     font-size: 2.1em; /*16px*/
     line-height: 165%;
+}
+.personal-info{
+    font-size: 2.1em; /*16px*/
+    line-height: 165%;
+    margin-top: 3%;
 }
 .info-eng-link{
     font-size: 1em; /*32px*/
@@ -162,6 +168,7 @@ p{
     font-size: 2.3em; /*15px*/
     line-height: 180%;
     padding-left: 6%;
+    letter-spacing: 0.01em
 }
 table td .bio-what-link{
     color: #00f;

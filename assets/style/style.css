@@ -89,10 +89,16 @@ orks-detail-tx-sub-pc{
 .body-text{
     font-size: 17px;
     line-height: 180%;
+    letter-spacing: 0.01em;
 }
 .info-eng{
     font-size: 16px;
     line-height: 150%;
+}
+.personal-info{
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 10px;
 }
 .info-eng-link{
     font-size: 16px;
@@ -254,14 +260,19 @@ table td .bio-what-link{
 
 /*=====works=====*/
 .works-mc{
-    margin: 100px 0;
-    text-align: center;
+    margin: 100px 10%;
+    text-align: left;
 }
 .works-block{
+/*
     width: 34%;
     margin: 0 3% 100px 3%;
+*/
+    width: 43%;
+    margin: 0 3.3% 100px 3.3%;
     display: inline-block;
     text-align: left;
+    vertical-align: top;
 }
 .works-img{
     margin-bottom: 35px;
