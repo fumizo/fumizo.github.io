@@ -89,7 +89,8 @@ orks-detail-tx-sub-pc{
 .body-text{
     font-size: 17px;
     line-height: 180%;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.12em;
+    font-feature-settings : "palt";
 }
 .body-text-link{
     font-size: 17px;

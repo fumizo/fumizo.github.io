@@ -5,34 +5,98 @@
         <title>fumikoyamamoto</title>
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Noto+Sans+TC:400,700|Open+Sans:400,700" rel="stylesheet">
         <link rel="stylesheet" href="./assets/style/reset.css">
-        <link rel="stylesheet" href="./assets/style/mobile.css" media="screen and (max-width:750px)">  
-        <link rel="stylesheet" href="./assets/style/style.css" media="screen and (min-width:750px)"> 
+        <link rel="stylesheet" href="./assets/style/mobile.css" media="screen and (max-width:1000px)">  
+        <link rel="stylesheet" href="./assets/style/style.css" media="screen and (min-width:1000px)"> 
+        <link rel="stylesheet" href="./assets/style/jquery.fatNav.css" media="screen and (max-width:1000px)"> 
     </head>
     <body>
-    <div class="top-mc">
-       <img class="top-maintitle" src="assets/img/title_main.svg" alt="">
-       <img class="top-subtitle" src="assets/img/title_sub.svg" alt="">
-       <div class="top-contents">
-           <hr class="top-line" color=#0000FF>
-           <div class="top-menu">
-               <div class="top-menu-l">
-                   <a href="about.html"><img class="top-pagetitle" src="assets/img/pagetitle_about.svg" alt=""></a>
-                   <a href="works.html"><img class="top-pagetitle" src="assets/img/pagetitle_works.svg" alt=""></a>
-                   <a href="personal.html"><img class="top-pagetitle" src="assets/img/pagetitle_personal.svg" alt=""></a>
-                   <a href="contact.html"><img class="top-pagetitle" id="page-title-last" src="assets/img/pagetitle_contact.svg" alt=""></a>
-               </div>
-               <div class="top-menu-r">
-                   <img class="top-pagetitle" src="assets/img/pagetitle_time.svg" alt="">
-                   <img class="top-pagetitle" src="assets/img/pagetitle_time.svg"alt="">
-                   <img class="top-pagetitle" src="assets/img/pagetitle_time.svg" alt="">
-                   <img class="top-pagetitle" id="page-title-last"  src="assets/img/pagetitle_time.svg" alt="">
-               </div>
-           </div>
-           <hr class="top-line2" color=#0000FF>
-           <hr class="top-line2" color=#0000FF>
-       </div>
-       <img class="top-dummy" src="assets/img/qr_dummy.svg" alt="">
+        <!--top-->
+        <a href="index.html"><img class="maintitle" src="assets/img/title_main.svg" alt=""></a>
+        <div class="maintitle-fixed"></div>
+        <div class="header-page-title-box">
+            <p class="header-page-title">works</p>
+        </div>
+        <!--side menu-->
+        <div class="side-menu fat-nav">
+            <div class="fat-nav__wrapper">
+                <ul class="menu">
+                    <li><a href="about.html"><p class="side-menu-component">about</p></a></li>
+                    <li><a href="works.html"><p class="side-menu-component-n">works</p></a></li>
+                    <li><a href="personal.html"><p class="side-menu-component">personal</p></a></li>
+                    <li><a href="contact.html"><p class="side-menu-component">contact</p></a></li>
+                </ul> 
+            </div>
+            <div class="nav-logo">
+                <a href="index.html"><img class="nav-logo-img" src="assets/img/header_blue.svg" alt=""></a>
+            </div>
+        </div>
         
-    </div>   
+        <div class="works-mc">
+           <a href="works-sukedachi.html">
+               <div class="works-block">
+                   <img class="works-img" src="assets/img/sukedachi_web.png" alt="">
+                   <p class="title-jp works-title">株式会社助太刀</p>
+                   <p class="info-eng works-info">CORPORATE : sticker / water bottle / envelope / one cup / towel / noren / paper bag / web</p>
+               </div>
+           </a>
+            <a href="works-sukedachi2.html">
+                <div class="works-block">
+                    <img class="works-img" src="assets/img/sukedachi-flyer.png" alt="">
+                    <p class="title-jp works-title">助太刀</p>
+                    <p class="info-eng works-info">SURVISE : A4 flyer / LP(dev) × 2</p>
+                </div>
+            </a>
+            <a href="works-patra.html">
+                <div class="works-block">
+                    <img class="works-img" src="assets/img/patra__main.png" alt="">
+                    <p class="title-jp works-title">PATRA inc</p>
+                    <p class="info-eng works-info">logo / UI / foodie</p>
+                </div>
+            </a>
+            <a href="sukedachi.html">
+                <div class="works-block">
+                    <img class="works-img" src="assets/img/works-kari.png" alt="">
+                    <p class="title-jp works-title">青二祭</p>
+                    <p class="info-eng works-info">logo / flyer / ticket / sticker / motion graphics</p>
+                </div>
+            </a>
+            
+        </div>
+        
+        <div class="header-change">
+            <a href="index.html"><img class="header-change-img" src="assets/img/header_blue.svg" alt=""></a>
+        </div>
+        
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript">
+            // ページの読み込みが完了してから実行
+            $(function() {
+                var header = $(".header-change");
+                header.hide();
+                // 表示を開始するスクロール量(px)
+                var TargetPos = 150;
+
+                // スクロールされた際に実行
+                $(window).scroll( function() {
+                    // 現在のスクロール位置を取得
+                    var ScrollPos = $(window).scrollTop();
+                    if( ScrollPos > TargetPos ) {
+                        header.fadeIn(100);
+                    }
+                    else {
+                        header.fadeOut(50);
+                    }
+                });
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="./assets/js/jquery.fatNav.js"></script>
+
+        <script>
+            $(function() {
+                $.fatNav();
+            });
+        </script>
+
     </body>
 </html>
