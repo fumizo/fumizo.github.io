@@ -30,6 +30,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
+body{
+    background-color: #f7f7f7;
+}
 p{
     font-feature-settings : "palt" 1;
 }
