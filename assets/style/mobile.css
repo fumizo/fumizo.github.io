@@ -239,15 +239,20 @@ table td .bio-what-link{
     width: 100%;
     margin: 0 0 10% 0;
 }
+.works-dt-body-link{
+    width: 100%;
+    margin: 0 0 10% 0;
+    color: #00f;
+}
 .works-dt-img{
     width: 110%;
     margin: 0 -5% 10% -5%;
 }
 .works-dt-maintitle{
-    margin: 0 0 32px 0;
+    margin: 0 0 45px 0;
 }
 .works-dt-subtitle{
-    margin: 0 0 28px 0;
+    margin: 0 0 40px 0;
 }
 .works-dt-date{
     margin: 0 0 55px 0;
