@@ -91,6 +91,26 @@ orks-detail-tx-sub-pc{
     line-height: 180%;
     letter-spacing: 0.01em;
 }
+.body-text-link{
+    font-size: 17px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #00f; 
+    position: relative;
+}
+.body-text-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 1.3px;
+    background-color: #00f;
+    transition: .1s;
+}
+.body-text-link:hover::after {
+    width: 100%;
+}
 .info-eng{
     font-size: 16px;
     line-height: 150%;
