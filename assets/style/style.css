@@ -205,6 +205,7 @@ p{
     display: inline-block;
     position: absolute;
     margin-left: 5%;
+    margin-bottom: 100px;
 }
 .about-name{
     margin-bottom: 13px;
