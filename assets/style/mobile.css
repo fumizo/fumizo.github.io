@@ -1,3 +1,9 @@
+p{
+    line-height:1;
+    letter-spacing: 0.01em;
+}
+
+
 /*=====TOP=====*/
 .top-mc{
     margin: 0 auto;
@@ -156,6 +162,8 @@ p{
 }
 .about-body{
     margin-bottom: 8%;
+    line-height: 2;
+    letter-spacing: 0.02em;
 }
 .about-line{
     margin: 15% 30% 0 30%;

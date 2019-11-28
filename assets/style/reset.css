@@ -23,7 +23,7 @@ font: inherit;
 color: #191919;
 vertical-align: baseline;
 text-decoration: none;
-    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic","Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -37,7 +37,8 @@ p{
     font-feature-settings : "palt" 1;
 }
 body {
-line-height: 1;
+    line-height: 2;
+    letter-spacing: 0.01em;
 }
 ol, ul {
 list-style: none;
