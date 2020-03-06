@@ -23,7 +23,7 @@ font: inherit;
 color: #191919;
 vertical-align: baseline;
 text-decoration: none;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic","Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-family: -apple-system, 'BlinkMacSystemFont',  "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic","Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

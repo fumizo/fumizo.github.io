@@ -71,8 +71,9 @@
     font-weight: bold;
 }
 .works-title-eng{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bold;
+    line-height: 120%;
 }
 orks-detail-tx-sub-pc{
     font-size: 32px;
@@ -81,6 +82,7 @@ orks-detail-tx-sub-pc{
 .title-jp{
     font-size: 31px;
     font-weight: bold;
+    line-height: 150%;
 }
 .subtitle-eng{
     font-size: 15px;
@@ -114,7 +116,13 @@ orks-detail-tx-sub-pc{
 }
 .info-eng{
     font-size: 16px;
-    line-height: 150%;
+    line-height: 160%;
+}
+.info-tag{
+    font-size: 16px; /*16px*/
+    line-height: 160%;
+    font-weight: bold;
+    margin-bottom: 17px;
 }
 .personal-info{
     font-size: 16px;
@@ -267,6 +275,11 @@ table td .bio-what-link{
     margin-top: 110px;
     margin-left: 200px;
 }
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .contact-main-adress{
     margin-bottom: 60px;
 }
@@ -303,7 +316,7 @@ table td .bio-what-link{
     width: 100%;
 }
 .works-title{
-    margin-bottom: 17px;
+/*    margin-bottom: 17px;*/
 }
 
 /*=====works-detail=====*/
@@ -327,14 +340,20 @@ table td .bio-what-link{
     margin-bottom: 50px;
 }
 .works-dt-maintitle{
-    margin-bottom: 32px;
+    margin-bottom: 24px;
+}
+.works-detail-info-tag{
+    font-size: 16px; /*16px*/
+    line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 .works-dt-subtitle{
-    margin-bottom: 28px;
-    line-height: 200%;
+    margin-bottom: 72px;
+    line-height: 160%;
 }
 .works-dt-date{
-    margin-bottom: 55px;
+    margin-bottom: 12px;
 }
 .works-detail-subcontents{
     text-align: center;
@@ -343,6 +362,12 @@ table td .bio-what-link{
     display: none;
 }
 
-.img-white{
+.fotter{
+    top: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.fotter-tx{
+    color: #191919;
 }
 

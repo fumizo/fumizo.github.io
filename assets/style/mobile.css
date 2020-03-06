@@ -104,6 +104,12 @@ p{
     font-size: 2.2em; /*16px*/
     line-height: 165%;
 }
+.info-tag{
+    font-size: 1em; /*16px*/
+    line-height: 160%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
 .personal-info{
     font-size: 2.5em; /*16px*/
     line-height: 165%;
@@ -235,7 +241,7 @@ table td .bio-what-link{
     width: 100%;
 }
 .works-title{
-    margin-bottom: 3%;
+/*    margin-bottom: 3%;*/
 }
 
 /*=====works-detail=====*/
@@ -257,6 +263,11 @@ table td .bio-what-link{
     width: 110%;
     margin: 0 -5% 10% -5%;
 }
+.works-detail-info-tag{
+    font-size: 16px; /*16px*/
+    line-height: 160%;
+    font-weight: bold;
+}
 .works-dt-maintitle{
     margin: 0 0 8% 0;
 }
@@ -276,4 +287,10 @@ table td .bio-what-link{
     margin: 20% 30% 20% 30%;
 }
 
+.fotter-tx{
+    font-size: 2em;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 50px;
+}
 
