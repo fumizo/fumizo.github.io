@@ -311,14 +311,31 @@ table td .bio-what-link{
     text-align: left;
     vertical-align: top;
 }
+.works-top{
+    margin: 0 3.3% 50px 3.3%;
+    text-align: left;
+}
+.works-top-tx{
+    font-size: 20px;
+/*    font-weight: bold;*/
+    line-height: 160%;
+}
+.works-top-tx-highlighe{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 160%;
+    color: #fff;
+    background: #1c1c1c;
+}
+.works-top-tx-semihighlighe{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 160%;
+}
 .works-img{
     margin-bottom: 35px;
     width: 100%;
 }
-.works-title{
-/*    margin-bottom: 17px;*/
-}
-
 /*=====works-detail=====*/
 .works-detail-mc{
     width: 800px;
